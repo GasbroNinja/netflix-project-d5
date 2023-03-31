@@ -11,15 +11,29 @@ const MyNav = () => (
           <LogoNetflix src={image1} alt="Logo Netflix" />
         </Navbar.Brand>
         <span>
-          <Nav className="me-auto fw-bold gap-2">
-            <Nav.Link href="#" className="text-light">Home</Nav.Link>
-            <Nav.Link href="#">TvShow</Nav.Link>
-            <Nav.Link href="#">Movies</Nav.Link>
-            <Nav.Link href="#">Recently Added</Nav.Link>
-            <Nav.Link href="#">My list</Nav.Link>
+          <Nav className="me-auto fw-bold gap-2 d-flex">
+            <div>
+              <Nav.Link href="#" className="active">
+                Home
+              </Nav.Link>
+            </div>
+            <div>
+              <Nav.Link href="#">TvShow</Nav.Link>
+            </div>
+            <div>
+              <Nav.Link href="#">Movies</Nav.Link>
+            </div>
+            <div>
+              <Nav.Link href="#">Recently Added</Nav.Link>
+            </div>
+            <div>
+              <Nav.Link href="#">My list</Nav.Link>
+            </div>
           </Nav>
         </span>
         <Nav className="ms-auto fw-bold gap-2">
+          {/*-- IN CONSOLE USCIRANNO UN PAIO DI ERRORI SULLE SVG POICHE' IO HO DECISO PER IMMEDIATEZZA DI IMPORTARLE
+          SENZA PREOCCUPARMI DI IMPLENTARE ALTRI PACCHETTI CON ICONE, LE SVG HANNO BISOGNO DELLA "CLASS" POICHE' SE LA CAMBIASSI NON SI VEDREBBERO LE ICONE --*/}
           <Nav.Link className="d-flex align-items-center" href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
