@@ -60,7 +60,7 @@ class AllCards extends Component {
                 <div className="container-fluid px-0 mt-3">
                   <div className="row row-cols-6 justify-content-between g-1">
                     {this.state.isLoading && !this.state.error && (
-                      <Spinner animation="border" role="status">
+                      <Spinner animation="border" variant="light" role="status">
                         <span className="visually-hidden">Loading...</span>
                       </Spinner>
                     )}
@@ -95,7 +95,7 @@ class AllCards extends Component {
                 <div className="container-fluid px-0 mt-3">
                   <div className="row row-cols-6 justify-content-between g-1">
                     {this.state.isLoading && !this.state.error && (
-                      <Spinner animation="border" role="status">
+                      <Spinner animation="border" variant="light" role="status">
                         <span className="visually-hidden">Loading...</span>
                       </Spinner>
                     )}
@@ -130,7 +130,7 @@ class AllCards extends Component {
                 <div className="container-fluid px-0 mt-3">
                   <div className="row row-cols-5 justify-content-between g-1">
                     {this.state.isLoading && !this.state.error && (
-                      <Spinner animation="border" role="status">
+                      <Spinner animation="border" variant="light" role="status">
                         <span className="visually-hidden">Loading...</span>
                       </Spinner>
                     )}

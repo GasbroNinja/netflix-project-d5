@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyNav from "./components/MyNav";
 import MyHomePage from "./components/MyHomePage";
+//import Profile from "./components/Profile";
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <>
     <MyNav />
     <MyHomePage />
-    
+    {/*<Profile />*/}
 
 
     
